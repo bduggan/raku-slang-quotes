@@ -17,7 +17,7 @@ DESCRIPTION
 
 There are a number of unicode characters that look like quotes but are not specifically categorized as quotes, such as
 
-    🙶 these ones 🙷
+    🙶these ones🙷
 
 aka
 
