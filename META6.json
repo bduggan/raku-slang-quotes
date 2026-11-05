@@ -1,0 +1,22 @@
+{
+  "name" : "Slang::Quotes",
+  "authors" : [
+    "Brian Duggan"
+  ],
+  "provides" : {
+    "Slang::Quotes" : "lib/Slang/Quote.rakumod"
+  },
+  "build-depends" : [ "Slangify" ],
+  "depends" : [
+  ],
+  "description" : "More types of quotes for your literals",
+  "tags" : [
+    "slang"
+  ],
+  "license" : "MIT",
+  "raku" : "6.*",
+  "version" : "0.0.1",
+  "auth" : "zef:bduggan",
+  "source-url" : "git://github.com/bduggan/raku-slang-quotes.git"
+}
+
