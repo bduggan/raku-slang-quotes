@@ -62,8 +62,8 @@ The unicode properties of these indicate that they are bracketing characters, bu
 Well, they look like quotes to me!  With this slang, they are treated
 as quotes.
 
-Note that without this slang of course you could use the Q operator,
-but this makes that unnecessary.
+Note that without this slang of course you could use the Q operator, which
+turns bracketing characters into quotes.
 
 =head1 AUTHOR
 
