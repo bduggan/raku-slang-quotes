@@ -12,12 +12,17 @@ my role Slang::Quotes::Grammar {
         :dba('heavy single comma quotation mark ornament')
         '❛' ~ '❜' <nibble(self.quote-q('❛', '❜'))>
    }
+   token quote:sym<dpcqmo> {
+        :dba('double prime quotation mark')
+        '〝' ~ '〞' <nibble(self.quote-qq('〝', '〞'))>
+   }
 }
 
 my role Slang::Quotes::Actions {
   method quote:sym<hdcqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
   method quote:sym<sshdcmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
   method quote:sym<hscqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
+  method quote:sym<dpcqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
 }
 
 use Slangify Slang::Quotes::Grammar, Slang::Quotes::Actions;
