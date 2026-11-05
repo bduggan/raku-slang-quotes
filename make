@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 constant $readme-src = "lib/Slang/Quotes.rakumod";
-constant $github-repo = 'bduggan/raku-quotes';
+constant $github-repo = 'bduggan/raku-slang-quotes';
 
 if %*ENV<VERBOSE> {
   &shell.wrap: -> |c { say c.raku; callsame; }
