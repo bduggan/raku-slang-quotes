@@ -4,7 +4,7 @@
     "Brian Duggan"
   ],
   "provides" : {
-    "Slang::Quotes" : "lib/Slang/Quote.rakumod"
+    "Slang::Quotes" : "lib/Slang/Quotes.rakumod"
   },
   "build-depends" : [ "Slangify" ],
   "depends" : [
