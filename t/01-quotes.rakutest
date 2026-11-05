@@ -1,6 +1,14 @@
 use Test;
 use Slang::Quotes;
 
-plan 1;
+plan 6;
 
-is ❝hello world❞, 'hello world', 'heavy double turned comma quotes';
+is ❝hello world❞, 'hello world', 'heavy double comma quotes';
+is 🙶hello world🙷, 'hello world', 'sans serif heavy double comma quotes';
+is ❛hello world❜, 'hello world', 'heavy single comma quotes';
+
+my $planet = 'earth';
+is ❝hello, $planet❞, 'hello, earth', 'heavy double comma quotes with interpolation';
+is 🙶hello, $planet🙷, 'hello, earth', 'sans serif heavy double comma quotes with interpolation';
+is ❛hello, $planet❜, 'hello, $planet', 'heavy single comma quotes does not interpolate';
+

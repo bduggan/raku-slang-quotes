@@ -8,11 +8,16 @@ my role Slang::Quotes::Grammar {
         :dba('sans-serif heavy double comma quotation mark ornament')
         '🙶' ~ '🙷' <nibble(self.quote-qq('🙶', '🙷'))>
    }
+   token quote:sym<hscqmo> {
+        :dba('heavy single comma quotation mark ornament')
+        '❛' ~ '❜' <nibble(self.quote-q('❛', '❜'))>
+   }
 }
 
 my role Slang::Quotes::Actions {
   method quote:sym<hdcqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
   method quote:sym<sshdcmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
+  method quote:sym<hscqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
 }
 
 use Slangify Slang::Quotes::Grammar, Slang::Quotes::Actions;

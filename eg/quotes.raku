@@ -1,6 +1,9 @@
 use Slang::Quotes;
 
-say "hello, world";
-say ❝hello, world❞;
-say 🙶hello, world🙷 ;
+my $planet = 'earth';
 
+say "hello, $planet";
+say ❝hello, $planet❞;
+say 🙶hello, $planet🙷 ;
+
+say ❛hello, $planet❜;
