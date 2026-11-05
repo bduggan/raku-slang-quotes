@@ -20,6 +20,10 @@ my role Slang::Quotes::Grammar {
         :dba('fullwidth quotation mark')
         '＂' ~ '＂' <nibble(self.quote-qq('＂', '＂'))>
    }
+   token quote:sym<fwsqm> {
+        :dba('fullwidth single quotation mark')
+        '＇' ~ '＇' <nibble(self.quote-q('＇', '＇'))>
+   }
 }
 
 my role Slang::Quotes::Actions {
@@ -28,6 +32,7 @@ my role Slang::Quotes::Actions {
   method quote:sym<hscqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
   method quote:sym<dpcqmo>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
   method quote:sym<fwqm>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
+  method quote:sym<fwsqm>(Mu $match) { self.QUOTED($match, $match<nibble>.ast); }
 }
 
 use Slangify Slang::Quotes::Grammar, Slang::Quotes::Actions;
@@ -43,9 +48,11 @@ Slang::Quotes -- Treat more unicode ❝quotes❞ as quotation marks
     say 🙶hello, world🙷;
     say ❝hello world❞;
     say ❝hello, world❞;
-    say ❛hello, world❜;
     say 〝hello, world〞;
     say ＂hello, world＂;
+
+    say ❛hello, world❜;
+    say ＇hello, world＇;
 
 =head1 DESCRIPTION
 
