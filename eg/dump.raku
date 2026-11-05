@@ -1,5 +1,5 @@
 
-say "char | Quotation_Mark? | Uniprops | Name";
+say "char | ord | Quotation_Mark? | Uniprops | Name";
 
 for <
 "
@@ -13,6 +13,7 @@ for <
 > -> $c {
   # make a markdown table of the characters
   my @row =
+    $c,
     'U+' ~ $c.ord.fmt('%04x').uc,
     (so $c.uniprop('Quotation_Mark')),
     $c.uniprops,

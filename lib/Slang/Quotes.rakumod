@@ -80,16 +80,17 @@ turns bracketing characters into quotes.
 Currently supported quote chars, their unicode category and whether they have the Quotation_Mark property, are:
 
 =begin table
-char | Quotation_Mark? | Uniprops | Name
------|-----------------|----------|-----
-U+0022 | True | Po | QUOTATION MARK
-U+275D | False | So | HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
-U+1F676 | False | So | SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
-U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
-U+301D | True | Ps | REVERSED DOUBLE PRIME QUOTATION MARK
-U+FF02 | True | Po | FULLWIDTH QUOTATION MARK
-U+FF07 | True | Po | FULLWIDTH APOSTROPHE
-U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+char | ord | Quotation_Mark? | Uniprops | Name
+-----|-----|-----------|----------|-----
+" | U+0022 | True | Po | QUOTATION MARK
+❝ | U+275D | False | So | HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
+🙶 | U+1F676 | False | So | SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
+❛ | U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+〝 | U+301D | True | Ps | REVERSED DOUBLE PRIME QUOTATION MARK
+＂ | U+FF02 | True | Po | FULLWIDTH QUOTATION MARK
+＇ | U+FF07 | True | Po | FULLWIDTH APOSTROPHE
+❛ | U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+
 =end table
 
 =head1 AUTHOR

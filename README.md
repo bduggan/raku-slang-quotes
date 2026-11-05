@@ -43,10 +43,10 @@ Currently supported quote chars, their unicode category and whether they have th
 
 <table class="pod-table">
 <thead><tr>
-<th>char</th> <th>Quotation_Mark?</th> <th>Uniprops</th> <th>Name</th>
+<th>char</th> <th>ord</th> <th>Quotation_Mark?</th> <th>Uniprops</th> <th>Name</th>
 </tr></thead>
 <tbody>
-<tr> <td>U+0022</td> <td>True</td> <td>Po</td> <td>QUOTATION MARK</td> </tr> <tr> <td>U+275D</td> <td>False</td> <td>So</td> <td>HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+1F676</td> <td>False</td> <td>So</td> <td>SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+301D</td> <td>True</td> <td>Ps</td> <td>REVERSED DOUBLE PRIME QUOTATION MARK</td> </tr> <tr> <td>U+FF02</td> <td>True</td> <td>Po</td> <td>FULLWIDTH QUOTATION MARK</td> </tr> <tr> <td>U+FF07</td> <td>True</td> <td>Po</td> <td>FULLWIDTH APOSTROPHE</td> </tr> <tr> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr>
+<tr> <td>&quot;</td> <td>U+0022</td> <td>True</td> <td>Po</td> <td>QUOTATION MARK</td> </tr> <tr> <td>❝</td> <td>U+275D</td> <td>False</td> <td>So</td> <td>HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>🙶</td> <td>U+1F676</td> <td>False</td> <td>So</td> <td>SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>❛</td> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>〝</td> <td>U+301D</td> <td>True</td> <td>Ps</td> <td>REVERSED DOUBLE PRIME QUOTATION MARK</td> </tr> <tr> <td>＂</td> <td>U+FF02</td> <td>True</td> <td>Po</td> <td>FULLWIDTH QUOTATION MARK</td> </tr> <tr> <td>＇</td> <td>U+FF07</td> <td>True</td> <td>Po</td> <td>FULLWIDTH APOSTROPHE</td> </tr> <tr> <td>❛</td> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr>
 </tbody>
 </table>
 
