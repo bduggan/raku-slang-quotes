@@ -35,10 +35,9 @@ Slang::Quotes -- Treat more unicode ❝quotes❞ as quotation marks
 
 =head1 SYNOPSIS
 
-    say 🙶hello world🙷;
+    say 🙶hello, world🙷;
     say ❝hello world❞;
     say ❝hello, world❞;
-    say 🙶hello, world🙷 ;
     say ❛hello, world❜;
     say 〝hello, world〞;
 
