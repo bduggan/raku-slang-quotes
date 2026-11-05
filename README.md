@@ -41,7 +41,14 @@ Note that without this slang of course you could use the Q operator, which turns
 
 Currently supported quote chars, their unicode category and whether they have the Quotation_Mark property, are:
 
-char | Quotation_Mark? | Uniprops | Name U+0022 | True | Po | QUOTATION MARK U+275D | False | So | HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT U+1F676 | False | So | SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT U+301D | True | Ps | REVERSED DOUBLE PRIME QUOTATION MARK U+FF02 | True | Po | FULLWIDTH QUOTATION MARK U+FF07 | True | Po | FULLWIDTH APOSTROPHE U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+<table class="pod-table">
+<thead><tr>
+<th>char</th> <th>Quotation_Mark?</th> <th>Uniprops</th> <th>Name</th>
+</tr></thead>
+<tbody>
+<tr> <td>U+0022</td> <td>True</td> <td>Po</td> <td>QUOTATION MARK</td> </tr> <tr> <td>U+275D</td> <td>False</td> <td>So</td> <td>HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+1F676</td> <td>False</td> <td>So</td> <td>SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr> <tr> <td>U+301D</td> <td>True</td> <td>Ps</td> <td>REVERSED DOUBLE PRIME QUOTATION MARK</td> </tr> <tr> <td>U+FF02</td> <td>True</td> <td>Po</td> <td>FULLWIDTH QUOTATION MARK</td> </tr> <tr> <td>U+FF07</td> <td>True</td> <td>Po</td> <td>FULLWIDTH APOSTROPHE</td> </tr> <tr> <td>U+275B</td> <td>False</td> <td>So</td> <td>HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT</td> </tr>
+</tbody>
+</table>
 
 AUTHOR
 ======
