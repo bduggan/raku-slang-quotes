@@ -89,7 +89,6 @@ char | ord | Quotation_Mark? | Uniprops | Name
 〝 | U+301D | True | Ps | REVERSED DOUBLE PRIME QUOTATION MARK
 ＂ | U+FF02 | True | Po | FULLWIDTH QUOTATION MARK
 ＇ | U+FF07 | True | Po | FULLWIDTH APOSTROPHE
-❛ | U+275B | False | So | HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
 
 =end table
 
