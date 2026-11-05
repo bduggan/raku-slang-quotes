@@ -1,0 +1,6 @@
+use Test;
+use Slang::Quotes;
+
+plan 1;
+
+is ❝hello world❞, 'hello world', 'heavy double turned comma quotes';
