@@ -1,3 +1,6 @@
+
+say "char | Quotation_Mark? | Uniprops | Name";
+
 for <
 "
 ❝
@@ -8,10 +11,11 @@ for <
 ＇
 ❛
 > -> $c {
-  say $c
-  ~ ' '
-  ~ 'U+' ~ $c.ord.fmt('%04x').uc ~ ' '
-  ~ (so $c.uniprop('Quotation_Mark')) ~ ' '
-  ~ $c.uniprops ~ ' '
-  ~ $c.uniname
+  # make a markdown table of the characters
+  my @row =
+    'U+' ~ $c.ord.fmt('%04x').uc,
+    (so $c.uniprop('Quotation_Mark')),
+    $c.uniprops,
+    $c.uniname;
+  say @row.join(' | ');
 }
