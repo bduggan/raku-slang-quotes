@@ -44,6 +44,10 @@ aka
 
    SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
 
+and
+
+   SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT
+
 The unicode properties of these indicate they are brackets, not quotes.
 
 But they look like quotes to me!  With this slang, they are treated
