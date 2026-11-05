@@ -9,7 +9,7 @@
   "build-depends" : [ "Slangify" ],
   "depends" : [
   ],
-  "description" : "More types of quotes for your literals",
+  "description" : "Treat more unicode ❝quotes❞ as quotation marks",
   "tags" : [
     "slang"
   ],
